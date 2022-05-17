@@ -1,7 +1,966 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+	<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		
+				<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+					
+						
+						<meta name="format-detection" content="telephone=no">
+			
+	<title>Companies &#8211; Skill Hub Training | Out-of-the-box learning platform and content solution</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Skill Hub Training | Out-of-the-box learning platform and content solution &raquo; Feed" href="https://skillhub.training/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Skill Hub Training | Out-of-the-box learning platform and content solution &raquo; Comments Feed" href="https://skillhub.training/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.5.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-166955206-1"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.5.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-166955206-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						if ( document.cookie.indexOf( disableStrs[ index ] + '=true' ) > -1 ) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						document.cookie = disableStrs[ index ] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if ( mi_track_user ) {
+					function __gtagDataLayer() {
+						dataLayer.push( arguments );
+					}
+
+					function __gtagTracker( type, name, parameters ) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply( null, arguments );
+							return;
+						}
+
+						if ( type === 'event' ) {
+							
+															parameters.send_to = monsterinsights_frontend.ua;
+								__gtagDataLayer( type, name, parameters );
+													} else {
+							__gtagDataLayer.apply( null, arguments );
+						}
+					}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+											} );
+															__gtagTracker( 'config', 'UA-166955206-1', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;											(function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( 'pageview' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[2] ) {
+												hitObject = {
+													'eventAction': 'page_view',
+													'page_path' : arguments[2],
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof arguments[1].hitType ) {
+											hitObject = arguments[1];
+											if ( 'pageview' === hitObject.hitType ) {
+												hitObject.eventAction = 'page_view';
+											}
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var arg, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+										'page' : 'page_path',
+										'location' : 'page_location',
+										'title' : 'page_title',
+									};
+									for ( arg in args ) {
+																				if ( ! ( ! args.hasOwnProperty(arg) || ! gaMap.hasOwnProperty(arg) ) ) {
+											hit[gaMap[arg]] = args[arg];
+										} else {
+											hit[arg] = args[arg];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						})();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/skillhub.training\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='reusablec-block-css-css'  href='https://skillhub.training/wp-content/plugins/reusable-content-blocks/includes/css/reusablec-block.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://skillhub.training/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=6.11.9' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://skillhub.training/wp-includes/css/dist/block-library/style.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://skillhub.training/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='nbcpf-intlTelInput-style-css'  href='https://skillhub.training/wp-content/plugins/country-phone-field-contact-form-7/assets/css/intlTelInput.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='nbcpf-countryFlag-style-css'  href='https://skillhub.training/wp-content/plugins/country-phone-field-contact-form-7/assets/css/countrySelect.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcf7-redirect-script-frontend-css'  href='https://skillhub.training/wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='h5p-plugin-styles-css'  href='https://skillhub.training/wp-content/plugins/h5p/h5p-php-library/styles/h5p.css?ver=1.15.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://skillhub.training/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://skillhub.training/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-default-style-css'  href='https://skillhub.training/wp-content/themes/pitchwp/style.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-stylesheet-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/stylesheet.min.css?ver=5.8.4' type='text/css' media='all' />
+<!--[if IE 9]>
+<link rel='stylesheet' id='pitch-ie9-style-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/ie9_stylesheet.css?ver=5.8.4' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='pitch-mac-style-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/mac_stylesheet.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-webkit-style-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/webkit_stylesheet.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-blog-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/blog.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-responsive-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/responsive.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-font_awesome-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/font-awesome/css/font-awesome.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-font_elegant-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/elegant-icons/style.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-ion_icons-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/ion-icons/css/ionicons.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-linea_icons-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/linea-icons/style.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-simple_line_icons-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/simple-line-icons/simple-line-icons.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-dripicons-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/dripicons/dripicons.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-style-dynamic-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/style_dynamic_callback.php?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-style-dynamic-responsive-css'  href='https://skillhub.training/wp-content/themes/pitchwp/css/style_dynamic_responsive_callback.php?ver=5.8.4' type='text/css' media='all' />
+<style id='pitch-style-dynamic-responsive-inline-css' type='text/css'>
+.page-id-54668 .projects_holder article .icons_holder{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.page-id-54668 .projects_holder article .icons_holder a{
+	display: table !important;
+    padding: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+.page-id-54668 .projects_holder article .icons_holder a:before{
+	 display: table-cell;
+    vertical-align: middle;
+}
+.page-id-54668 .projects_holder article .icons_holder a.preview:before, 
+.page-id-54668 .projects_masonry_holder article .icons_holder a.preview:before, 
+.page-id-54668 .portfolio_slides .icons_holder a.preview:before {
+    content: "\f178";
+    font-size: 42px;
+}
+
+.page-id-54668 .qode_carousels .caroufredsel-direction-nav .caroufredsel-navigation-item, 
+.page-id-54668 .caroufredsel-direction-nav a {
+    background-color: #f5245f;
+    color: #fff;
+}
+
+.page-id-54668 .qode_carousels .caroufredsel-direction-nav .caroufredsel-navigation-item:hover, 
+.page-id-54668 .caroufredsel-direction-nav a:hover {
+    background-color: #16171D;
+    color: #fff;
+}
+
+.page-id-54668 .full_width .qode_carousels .caroufredsel-direction-nav .qode_carousel_prev {
+    left: 15px;
+}
+
+.page-id-54668 .full_width .qode_carousels .caroufredsel-direction-nav .qode_carousel_next {
+    right: 15px;
+}
+
+#nav-menu-item-56339 .second ul li {
+    border-left: 0;
+}
+
+#nav-menu-item-56339 .second .inner ul li a {
+    margin: 0;
+}
+
+#nav-menu-item-56339 .second .inner .widget {
+     padding: 10px 9px 0;
+}
+
+#nav-menu-item-56339 .second .inner ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+#nav-menu-item-56339 .second .inner ul li a img {
+    display: inline-block;
+    vertical-align:middle;
+    position: relative;
+}
+
+#nav-menu-item-56339 .second .inner ul li a:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22,23,29,0.8);
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 3;
+}
+
+#nav-menu-item-56339 .second .inner ul li a:hover:before {
+    opacity: 1;
+}
+
+#nav-menu-item-56339 .second .inner ul li a:after {
+    content: "\f178";
+    font-size: 42px;
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right:0;
+    color: #fff;
+    opacity: 0;
+    -webkit-transform: scale(1.2) translateY(20px);
+    -ms-transform: scale(1.2) translateY(20px);
+    transform: scale(1.2) translateY(20px);
+    transition: background-color 0.2s ease-out, transform 0.3s ease-out, opacity 0.3s ease-out;
+    -webkit-transition: background-color 0.2s ease-out, -webkit-transform 0.3s ease-out, opacity 0.3s ease-out;
+    backface-visibility: hidden;
+    z-index: 4;
+}
+
+#nav-menu-item-56339 .second .inner ul li a:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-50%);
+    -ms-transform: scale(1) translateY(-50%);
+    transform: scale(1) translateY(-50%);
+    backface-visibility: hidden;
+}
+</style>
+<link rel='stylesheet' id='js_composer_front-css'  href='https://skillhub.training/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.8.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Csearch_text_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Csearch_label_text_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpopup_menu_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpopup_menu_google_fonts_2nd%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cfooter_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cfooter_top_text_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cfooter_top_link_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cfooter_bottom_text_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ch1_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ch2_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ch3_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ch4_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ch5_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ch6_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ctext_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cmenu_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cfixed_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpage_title_medium_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpage_title_large_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpage_subtitle_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpage_breadcrumb_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccto_action_bttn_title_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccounters_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccounters_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cexpandable_label_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cprogress_bar_horizontal_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cprogress_bar_horizontal_percentage_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cprogress_bar_vertical_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cprogress_bar_vertical_percentage_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cinteractive_banners_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Clist_ordered_google_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_active_text_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_period_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_price_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_currency_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_button_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cpricing_tables_content_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cservice_tables_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cservice_tables_content_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ctab_nav_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ctags_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ctestimonials_text_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ctestimonials_author_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ctestimonials_author_job_position_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Csidebar_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Csidebar_text_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Csidebar_link_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_boxes_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_boxes_post_info_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_masonry_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_masonry_post_info_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_img_in_lbox_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_img_in_lbox_post_info_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_list_img_in_lbox_date_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_slider_title_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cblog_slider_category_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_title_standard_list_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_title_hover_box_list_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_title_list_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_category_standard_list_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_category_hover_box_list_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_category_list_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cportfolio_filter_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccf7_custom_style_1_element_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccf7_custom_style_1_button_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccf7_custom_style_2_element_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Ccf7_custom_style_2_button_font_family%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7Cgoogle_fonts%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='trx_mscf_style-css'  href='https://skillhub.training/wp-content/plugins/contact-form-7-multi-step-addon/assets/css/style.min.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='https://skillhub.training/wp-content/themes/pitchwp/framework/admin/assets/css/select2.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pitch-core-dashboard-style-css'  href='https://skillhub.training/wp-content/plugins/select-core/modules/core-dashboard/assets/css/core-dashboard.min.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cf7cf-style-css'  href='https://skillhub.training/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.1.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.11.9","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=6.11.9' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.11.9' id='layerslider-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=6.11.9' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.5.2' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/skillhub.training","hash_tracking":"false","ua":"UA-166955206-1","v4_id":""};/* ]]> */
+</script>
+<meta name="generator" content="Powered by LayerSlider 6.11.9 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel="https://api.w.org/" href="https://skillhub.training/wp-json/" /><link rel="alternate" type="application/json" href="https://skillhub.training/wp-json/wp/v2/pages/57320" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://skillhub.training/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://skillhub.training/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.4" />
+<link rel="canonical" href="https://skillhub.training/companies/" />
+<link rel='shortlink' href='https://skillhub.training/?p=57320' />
+<link rel="alternate" type="application/json+oembed" href="https://skillhub.training/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fskillhub.training%2Fcompanies%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://skillhub.training/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fskillhub.training%2Fcompanies%2F&#038;format=xml" />
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<style type="text/css">.inv-recaptcha-holder {
+    margin-top: 20px;
+}</style><link rel="icon" href="https://skillhub.training/wp-content/uploads/2020/05/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://skillhub.training/wp-content/uploads/2020/05/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://skillhub.training/wp-content/uploads/2020/05/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://skillhub.training/wp-content/uploads/2020/05/cropped-favicon-270x270.png" />
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="page-template page-template-full_width page-template-full_width-php page page-id-57320 select-core-1.5 pitch-child-child-theme-ver-2.2.1563307846 pitch-theme-ver-3.4.2 ajax_updown_fade page_not_loaded grid_1300 vertical_menu_with_scroll blog_installed wpb-js-composer js-comp-ver-6.8.0 vc_responsive">
+
+	<div class="ajax_loader">
+		<div class="ajax_loader_1">
+			<div class="atom"><div class="ball ball-1"></div><div class="ball ball-2"></div><div class="ball ball-3"></div><div class="ball ball-4"></div></div>		</div>
+	</div>
+<div class="wrapper">
+<div class="wrapper_inner">
+
+
+
+			<header class="page_header scrolled_not_transparent with_border stick ajax_header_animation">
+			<div class="header_inner clearfix">
+							
+		
+			<div class="header_top_bottom_holder">
+												<div class="header_bottom  header_full_width clearfix " style="background-color:rgba(255, 255, 255, 0);" >
+					
+																			<div class="header_inner_left">
+																									<div class="mobile_menu_button">
+										<span>
+											<i class="qode_icon_font_awesome fa fa-bars "></i>										</span>
+									</div>
+																
+								
+								
+																	<div class="logo_wrapper" >
+																				<div class="q_logo"><a  href="https://skillhub.training/"><img class="normal" src="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-White-Text.png" alt="Logo"/><img class="light" src="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-White-Text.png" alt="Logo"/><img class="dark" src="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-White-Text.png" alt="Logo"/><img class="sticky" src="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-Grey-Text.png" alt="Logo"/><img class="mobile" src="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-Grey-Text.png" alt="Logo"/></a></div>
+																			</div>
+																
+								
+																							</div>
+																																							<div class="header_inner_right">
+										<div class="side_menu_button_wrapper right">
+																						<div class="side_menu_button">
+	
+													
+																								
+																								
+																							</div>
+										</div>
+									</div>
+																																<nav class="main_menu drop_down  slide_from_bottom right">
+									<ul id="menu-top-menu" class=""><li id="nav-menu-item-56793" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://skillhub.training/lms-features/" class=""><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">LMS Features</span></span><span class="plus"></span></a></li>
+<li id="nav-menu-item-56792" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://lms.skillhub.training/catalog" class=""><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Catalog</span></span><span class="plus"></span></a></li>
+<li id="nav-menu-item-57234" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://skillhub.training/14-day-free-trial/" class=""><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Free Trial</span></span><span class="plus"></span></a></li>
+<li id="nav-menu-item-57235" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://skillhub.as.me/mark" class=""><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Book Demo</span></span><span class="plus"></span></a></li>
+<li id="nav-menu-item-57201" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="https://skillhub.training/contact/" class=""><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Contact</span></span><span class="plus"></span></a></li>
+</ul>																</nav>
+																																							<nav class="mobile_menu">
+									<ul id="menu-top-menu-1" class=""><li id="mobile-menu-item-56793" class="menu-item menu-item-type-custom menu-item-object-custom  level0"><a href="https://skillhub.training/lms-features/" class=""><span>LMS Features</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-56792" class="menu-item menu-item-type-custom menu-item-object-custom  level0"><a href="https://lms.skillhub.training/catalog" class=""><span>Catalog</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-57234" class="menu-item menu-item-type-custom menu-item-object-custom  level0"><a href="https://skillhub.training/14-day-free-trial/" class=""><span>Free Trial</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-57235" class="menu-item menu-item-type-custom menu-item-object-custom  level0"><a href="https://skillhub.as.me/mark" class=""><span>Book Demo</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-57201" class="menu-item menu-item-type-post_type menu-item-object-page  level0"><a href="https://skillhub.training/contact/" class=""><span>Contact</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+</ul>								</nav>
+													</div>
+				</div>
+			</div>
+		</header>
+		
+
+			<a id='back_to_top' class="" href='#'>
+			<span class="qode_icon_stack">
+				<i class="qode_icon_font_awesome fa fa-chevron-up "></i>			</span>
+		</a>
+	
+
+
+
+
+<div class="content ">
+				<div class="meta">
+						
+			<div class="seo_title">  Companies</div>
+			
+									<span id="qode_page_id">57320</span>
+			<div class="body_classes">page-template,page-template-full_width,page-template-full_width-php,page,page-id-57320,select-core-1.5,pitch-child-child-theme-ver-2.2.1563307846,pitch-theme-ver-3.4.2,ajax_updown_fade,page_not_loaded,grid_1300,vertical_menu_with_scroll,blog_installed,wpb-js-composer js-comp-ver-6.8.0,vc_responsive</div>
+		</div>
+		<div class="content_inner  ">
+							<div class="title_outer title_without_animation"  data-height="400">
+		<div class="title title_size_large position_left preload_background has_background standard_title" style="background-size:1920px auto;background-image:url(https://skillhub.training/wp-content/uploads/2018/04/header2-1.jpg);height:400px;background-color:#f5f5f5;">
+			<div class="image not_responsive"><img src="https://skillhub.training/wp-content/uploads/2018/04/header2-1.jpg" alt="Title Image" /> </div>
+			
+			<div class="title_holder"  style="padding-top:120px;height:280px;">
+				<div class="container clearfix">
+					<div class="container_inner clearfix">
+						<div class="title_subtitle_holder " >
+                                                        							<div class="title_subtitle_holder_inner title_content_background" >
+															
+									
+									
+									
+																		
+                                    									
+									
+									
+									
+                                    										          <h1 ><span >Companies</span></h1>
+									
+									
+									
+									
+                                    
+									
+								
+																									
+									
+																						</div>
+							                                						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	
+	<div class="full_width" >
+	<div class="full_width_inner" >
+										<div      class="vc_row wpb_row section " style=' padding-bottom:2px; text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><span data-line-width="1000px"  class="vc_text_separator wpb_content_element full default center"><span class="separator_wrapper" style="margin-bottom:25px"><span class="q_line_before "  style="border-style:solid;"></span><span class="separator_content box" style="border-style: solid"><span>Out-of-the-Box Online Learning Platform for Your Team</span></span><span class="q_line_after " style="border-style:solid;"></span></span></span>
+</div></div></div></div></div><section      data-speed="1" class="parallax_section_holder preload_background   parallax_grid_section  " style = " min-height:250px; height: auto;  background-image:url('https://skillhub.training/wp-content/uploads/2015/08/Home-business-Slider-image-6-1.jpg');"><div class="parallax_content center  parallax_section_inner" ><div class='parallax_section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div      class="vc_row wpb_row vc_inner section" style=' padding-top:20px; padding-bottom:0px; text-align:left;'><div class=" full_section_inner clearfix"><div class="  element_from_right"><div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_left y_translate' data-animation='no' style='transition-delay:0ms;-webkit-transition-delay:0ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_1309932013' style='text-align:left;'><div class='q_icon_with_title tiny normal_icon center animation_zoom' data-icon-hover-color=#ffffff ><div class="icon_holder q_icon_animation " style=" "><div class="icon_holder_inner"><span class="qode_icon_stack qode_tiny_icon " style="font-size: 90px;color: #ffffff;"><i class="qode_icon_font_awesome fa fa-list icon_text_icon qode_icon_stack_1x " style="font-size: 90px;" ></i></span></div></div><div class="icon_text_holder"><div class="icon_title_inner_holder"><h5 class="icon_title " style="color: #ffffff;margin-bottom: 17px;">1,000+ Online Courses</h5></div><div class="icon_text_inner"><p style='color: #c1c1c1'>Business &amp; Soft Skills, Information Technology, Microsoft Office, Project Management and more. 100% mobile ready learning.</p><a class='icon_with_title_link' href='https://lms.skillhub.training/catalog' target='_self' style=''>View Catalog</a></div></div></div></div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_left y_translate' data-animation='no' style='transition-delay:200ms;-webkit-transition-delay:200ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_1027102010' style='text-align:left;'><div class='q_icon_with_title tiny normal_icon center animation_zoom' data-icon-hover-color=#ffffff ><div class="icon_holder  " style="margin: 0 0 5px 0; "><div class="icon_holder_inner"><span class="qode_icon_stack qode_tiny_icon " style="font-size: 90px;color: #ffffff;"><i class="qode_icon_font_awesome fa fa-plug icon_text_icon qode_icon_stack_1x " style="font-size: 90px;" ></i></span></div></div><div class="icon_text_holder"><div class="icon_title_inner_holder"><h5 class="icon_title " style="color: #ffffff;margin-bottom: 17px;">Branded Learning Experience</h5></div><div class="icon_text_inner"><p style='color: #c1c1c1'>Simple to use learning experience platform branded for your organization. Assign and track learning, gamification, learning paths and more - all right out of the box.</p><a class='icon_with_title_link' href='https://skillhub.training/lms-features/' target='_self' style=''>READ MORE</a></div></div></div></div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_left y_translate' data-animation='no' style='transition-delay:400ms;-webkit-transition-delay:400ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_230772093' style='text-align:left;'><div class='q_icon_with_title tiny normal_icon center animation_zoom' data-icon-hover-color=#ffffff ><div class="icon_holder  " style="margin: 0 0 6px 0; "><div class="icon_holder_inner"><span class="qode_icon_stack qode_tiny_icon " style="font-size: 90px;color: #ffffff;"><i class="qode_icon_font_awesome fa fa-connectdevelop icon_text_icon qode_icon_stack_1x " style="font-size: 90px;" ></i></span></div></div><div class="icon_text_holder"><div class="icon_title_inner_holder"><h5 class="icon_title " style="color: #ffffff;margin-bottom: 17px;">Integrated Web Conferencing</h5></div><div class="icon_text_inner"><p style='color: #c1c1c1'>We need to be connected now more than ever. Integrate with your favorite web conferencing tool. Schedule and launch meetings or live trainings right from the platform.</p></div></div></div></div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_left y_translate' data-animation='no' style='transition-delay:600ms;-webkit-transition-delay:600ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_574936085' style='text-align:left;'><div class='q_icon_with_title tiny normal_icon center animation_zoom' data-icon-hover-color=#ffffff ><div class="icon_holder  " style="margin: 3px 0 13px 0; "><div class="icon_holder_inner"><span class="qode_icon_stack qode_tiny_icon " style="font-size: 90px;color: #ffffff;"><i class="qode_icon_font_awesome fa fa-soccer-ball-o icon_text_icon qode_icon_stack_1x " style="font-size: 90px;" ></i></span></div></div><div class="icon_text_holder"><div class="icon_title_inner_holder"><h5 class="icon_title " style="color: #ffffff;margin-bottom: 17px;">Gamified Learning</h5></div><div class="icon_text_inner"><p style='color: #c1c1c1'>Gamified learning is proven as an effective tool to engage learners and encourage employees or members to keep learning new things.</p><a class='icon_with_title_link' href='https://skillhub.training/lms-features/' target='_self' style=''>READ MORE</a></div></div></div></div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div></div></div></div></div></div></div></div></div></div></section><div      class="vc_row wpb_row section " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"><div class="empty_space_image"
+                 ></div>
+</span></div>
+
+</div></div></div></div></div><div      class="vc_row wpb_row section " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div      class="vc_row wpb_row section " style=' padding-top:15px; padding-bottom:15px; text-align:center;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><a href="https://skillhub.training/14-day-free-trial/" target="_self"  class="qbutton  qbutton_with_icon icon_right" style="border-color: #d66f20; background-color: #d66f20;">14 Day Free Trial<i class="qode_icon_font_awesome fa fa-coffee button_icon" style="width: auto" ></i></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><a href="https://scheduler.hibox.co/skillhub" target="_self"  class="qbutton  qbutton_with_icon icon_right" style="">Book a Demo<i class="qode_icon_font_awesome fa fa-calendar-check-o button_icon" style="width: auto" ></i></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div></div>
+</div></div></div></div></div><div      class="vc_row wpb_row section " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"><div class="empty_space_image"
+                 ></div>
+</span></div>
+
+</div></div></div></div></div><div      class="vc_row wpb_row section " style=' padding-bottom:2px; text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><span data-line-width="1000px"  class="vc_text_separator wpb_content_element full default center"><span class="separator_wrapper" style=""><span class="q_line_before "  style="border-style:solid;"></span><span class="separator_content box" style="border-style: solid"><span>Companies Need This Right Now - Here&#039;s Why</span></span><span class="q_line_after " style="border-style:solid;"></span></span></span>
+</div></div></div></div></div><div      class="vc_row wpb_row section  grid_section" style=' padding-top:80px; padding-bottom:32px; text-align:center;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="  element_from_bottom"><div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_center y_translate' data-animation='no' style='transition-delay:0ms;-webkit-transition-delay:0ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_898987926' style='text-align:center;'><span class="q_icon_shade q_icon_shortcode font_awesome circle pull-center animation_border_out "  style="background-color: #2092d8;border-width: 0px!important; border-style:solid;margin: 0 0 30px 0;line-height:81px;width:81px;height:81px;"><i class="qode_icon_font_awesome fa fa-globe " style="vertical-align:bottom;line-height:81px;font-size: 31px; " ></i><span class="animation_overlay" style="width: 81px;height: 81px;"></span></span>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5>Remote Workers</h5>
+
+		</div> 
+	</div> <div class="separator  transparent   " style="margin-top:16px;margin-bottom:0px"></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>More and more employees are working remotely each year, and this trend is expected to continue. Remote working brings new challenges to business, including virtual communication and training for your team. SkillHub Training is here to fix that problem quickly and easily.</p>
+
+		</div> 
+	</div> </div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_center y_translate' data-animation='no' style='transition-delay:200ms;-webkit-transition-delay:200ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_780997721' style='text-align:center;'><span class="q_icon_shade q_icon_shortcode font_awesome circle pull-center animation_border_out "  style="background-color: #2092d8;border-width: 0px!important; border-style:solid;margin: 0 0 30px 0;line-height:81px;width:81px;height:81px;"><i class="qode_icon_font_awesome fa fa-group " style="vertical-align:bottom;line-height:81px;font-size: 31px; " ></i><span class="animation_overlay" style="width: 81px;height: 81px;"></span></span>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5>Any Time Learning</h5>
+
+		</div> 
+	</div> <div class="separator  transparent   " style="margin-top:16px;margin-bottom:0px"></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>Start with our 1,000+ courses and 140,000+ on-demand training videos out of the box. But you can also add your own internal training such as on-boarding, sales training, required trainings and more. It&#8217;s super easy to add, assign and track training for every member of your team.</p>
+
+		</div> 
+	</div> </div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_center y_translate' data-animation='no' style='transition-delay:400ms;-webkit-transition-delay:400ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_1357373705' style='text-align:center;'><span class="q_icon_shade q_icon_shortcode font_awesome circle pull-center animation_border_out "  style="background-color: #2092d8;border-width: 0px!important; border-style:solid;margin: 0 0 30px 0;line-height:81px;width:81px;height:81px;"><i class="qode_icon_font_awesome fa fa-graduation-cap " style="vertical-align:bottom;line-height:81px;font-size: 31px; " ></i><span class="animation_overlay" style="width: 81px;height: 81px;"></span></span>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5>Virtual Training</h5>
+
+		</div> 
+	</div> <div class="separator  transparent   " style="margin-top:16px;margin-bottom:0px"></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>Classroom training is expensive, and with more remote workers it gets harder to implement each year. SkillHub Training can be integrated with the web conferencing tool of your choice so your team can easily schedule and attend online instructor led training, virtual meetings or anything that requires multiple people to be online.</p>
+
+		</div> 
+	</div> </div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item vertical_alignment_middle horizontal_align_center y_translate' data-animation='no' style='transition-delay:600ms;-webkit-transition-delay:600ms;'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_inner_679830940' style='text-align:center;'><span class="q_icon_shade q_icon_shortcode font_awesome circle pull-center animation_border_out "  style="background-color: #2092d8;border-width: 0px!important; border-style:solid;margin: 0 0 30px 0;line-height:81px;width:81px;height:81px;"><i class="qode_icon_font_awesome fa fa-money " style="vertical-align:bottom;line-height:81px;font-size: 31px; " ></i><span class="animation_overlay" style="width: 81px;height: 81px;"></span></span>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5>Out-of-the-Box Solution</h5>
+
+		</div> 
+	</div> <div class="separator  transparent   " style="margin-top:16px;margin-bottom:0px"></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>SkillHub comes with all this and much more right out of the box. Implementation is easy and takes just a few days. Your learning platform is so easy to use, that most people need zero training to use it. However, we&#8217;ll be beside you with unlimited training and support in the event that you need it. SkillHub is your simple solution to solve your company&#8217;s training and communication needs.</p>
+
+		</div> 
+	</div> </div></div></div></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div></div></div></div></div></div><section      data-speed="0" class="parallax_section_holder preload_background   parallax_grid_section  " style = " min-height:300px; height: auto;  background-image:url('https://skillhub.training/wp-content/uploads/2015/08/home-original-image-3-1.jpg');"><div class="parallax_content center  parallax_section_inner" ><div class='parallax_section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div      class="vc_row wpb_row vc_inner section" style=' padding-top:77px; padding-bottom:54px; text-align:center;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3"><div class="vc_column-inner"><div class="wpb_wrapper"><span class="q_icon_shade q_icon_shortcode simple_line_icons normal pull-center  "  ><i class="qode_icon_simple_line_icon icon-list " style="font-size: 48px;line-height:50px; " data-hover-color="#ffffff" ></i></span><div class="q_counter_holder  center" style="padding-bottom: 0px;"><div class="counter_number_holder"><span class="counter_icon"> </span><span class="counter random" style="color: #ffffff;letter-spacing: -9.2px;font-size: 92px;font-weight: 400;">1000+</span></div><h6 class='counter_title' style='color:#ffffff;'>Online Courses</h6></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3"><div class="vc_column-inner"><div class="wpb_wrapper"><span class="q_icon_shade q_icon_shortcode simple_line_icons normal pull-center  "  ><i class="qode_icon_simple_line_icon icon-control-play " style="font-size: 48px;line-height:50px; " data-hover-color="#ffffff" ></i></span><div class="q_counter_holder  center" style="padding-bottom: 0px;"><div class="counter_number_holder"><span class="counter_icon"> </span><span class="counter random" style="color: #ffffff;letter-spacing: -6.5px;font-size: 92px;font-weight: 400;">144k</span></div><h6 class='counter_title' style='color:#ffffff;'>Training Videos</h6></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3"><div class="vc_column-inner"><div class="wpb_wrapper"><span class="q_icon_shade q_icon_shortcode simple_line_icons normal pull-center  "  ><i class="qode_icon_simple_line_icon icon-users " style="font-size: 48px;line-height:50px; " data-hover-color="#ffffff" ></i></span><div class="q_counter_holder  center" style="padding-bottom: 0px;"><div class="counter_number_holder"><span class="counter_icon"> </span><span class="counter random" style="color: #ffffff;letter-spacing: -9.2px;font-size: 92px;font-weight: 400;">1.2M</span></div><h6 class='counter_title' style='color:#ffffff;'>Learners</h6></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3"><div class="vc_column-inner"><div class="wpb_wrapper"><span class="q_icon_shade q_icon_shortcode simple_line_icons normal pull-center  "  ><i class="qode_icon_simple_line_icon icon-graduation " style="font-size: 48px;line-height:50px; " data-hover-color="#ffffff" ></i></span><div class="q_counter_holder  center" style="padding-bottom: 0px;"><div class="counter_number_holder"><span class="counter_icon"> </span><span class="counter random" style="color: #ffffff;letter-spacing: -5.1px;font-size: 92px;font-weight: 400;">6.5M</span></div><h6 class='counter_title' style='color:#ffffff;'>Course Completions</h6></div><div class="separator  transparent   " style="margin-top:40px;margin-bottom:0px"></div>
+</div></div></div></div></div></div></div></div></div></div></section><div      class="vc_row wpb_row section " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="vc_empty_space"  style="height: 50px" ><span class="vc_empty_space_inner"><div class="empty_space_image"
+                 ></div>
+</span></div>
+
+</div></div></div></div></div><div      class="vc_row wpb_row section " style=' padding-bottom:2px; text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><span data-line-width="1000px"  class="vc_text_separator wpb_content_element full default center"><span class="separator_wrapper" style="margin-bottom:25px"><span class="q_line_before "  style="border-style:solid;"></span><span class="separator_content box" style="border-style: solid"><span>Our Clients Include</span></span><span class="q_line_after " style="border-style:solid;"></span></span></span>
+</div></div></div></div></div><div id="clientLogos"     class="vc_row wpb_row section  grid_section full_screen_section" style=' text-align:left;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_clients clearfix without_borders without_space"><div class="qode_client_holder"><div class="qode_client_holder_inner"><div class="qode_client_image_holder grayscale"><a href="" target=""><img src="https://skillhub.training/wp-content/uploads/2020/06/ri.gif" alt="" /></a></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_clients clearfix without_borders without_space"><div class="qode_client_holder"><div class="qode_client_holder_inner"><div class="qode_client_image_holder grayscale"><a href="" target=""><img src="https://skillhub.training/wp-content/uploads/2020/06/gb.jpg" alt="" /></a></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_clients clearfix without_borders without_space"><div class="qode_client_holder"><div class="qode_client_holder_inner"><div class="qode_client_image_holder grayscale"><a href="" target=""><img src="https://skillhub.training/wp-content/uploads/2020/06/boo.png" alt="" /></a></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_clients clearfix without_borders without_space"><div class="qode_client_holder"><div class="qode_client_holder_inner"><div class="qode_client_image_holder grayscale"><a href="" target=""><img src="https://skillhub.training/wp-content/uploads/2020/06/ro.png" alt="" /></a></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_clients clearfix without_borders without_space"><div class="qode_client_holder"><div class="qode_client_holder_inner"><div class="qode_client_image_holder grayscale"><a href="" target=""><img src="https://skillhub.training/wp-content/uploads/2020/06/nr.png" alt="" /></a></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_clients clearfix without_borders without_space"><div class="qode_client_holder"><div class="qode_client_holder_inner"><div class="qode_client_image_holder grayscale"><a href="" target=""><img src="https://skillhub.training/wp-content/uploads/2020/06/bi.png" alt="" /></a></div></div></div></div></div></div></div></div></div></div><div      class="vc_row wpb_row section " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="vc_empty_space"  style="height: 50px" ><span class="vc_empty_space_inner"><div class="empty_space_image"
+                 ></div>
+</span></div>
+
+</div></div></div></div></div><div      class="vc_row wpb_row section  grid_section" style='background-color:#f7f7f7; padding-bottom:0px; text-align:left;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_pricing_tables clearfix three_columns"><div class='q_price_table  title_on_top' style="border-top:0;"><div class='price_table_inner' ><ul style=''><li class='cell table_title  pricing_title_grid center' style="background-color: #2092d8;"><span class='title_content' >1-25 Users</span></li><li class='prices pricing_content_full_width' style="background-color: #ffffff;"><div class='price_in_table'style="border-bottom: 0;"><sup class='value' >$</sup><span class='price' style="font-weight: 100">12 / User</span><span class='mark'>/ Per Month</span></div></li><li class='pricing_table_content pricing_content_full_width ' style=' '  data-even-background-color='#ffffff' data-odd-background-color='#f9f9f9'></p>
+<ul>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Up to 1000 users" data-feature-heading-talentlibrary="">No setup fee</li>
+<li data-feature-heading-initial="Up to 1000 users" data-feature-heading-talentlibrary="">Branded learning portal</li>
+<li data-feature-heading-initial="Unlimited courses" data-feature-heading-talentlibrary="">1,000+ course library</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Unlimited courses" data-feature-heading-talentlibrary="">Unlimited courses</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Unlimited email support" data-feature-heading-talentlibrary="">Unlimited support</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Live chat support" data-feature-heading-talentlibrary="">Live chat support</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Single Sign-On support" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Single Sign-On support</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Custom reports" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Custom reports</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Automations" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Automations</div>
+</li>
+<li data-feature-heading-initial="Automations" data-feature-heading-talentlibrary="">Integrations</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Success Manager" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Success Manager</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="SSL for your custom domain" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">SSL for your custom domain</div>
+</li>
+</ul>
+<p></li><li class='price_button normal' style="background-color: #ffffff;" ><div class='title_on_top_button_wrapper '><a  href='https://skillhub.training/contact/' target='_self'>Buy Now</a></div></li></ul></div></div><div class='q_price_table  title_on_top' style="border-top:0;"><div class='price_table_inner' ><ul style=''><li class='cell table_title  pricing_title_grid center' style="background-color: #2092d8;"><span class='title_content' >26-50 Users</span></li><li class='prices pricing_content_full_width' style="background-color: #ffffff;"><div class='price_in_table'style="border-bottom: 0;"><sup class='value' >$</sup><span class='price' style="font-weight: 100">9 / User</span><span class='mark'>/ Per Month</span></div></li><li class='pricing_table_content pricing_content_full_width ' style=' '  data-even-background-color='#ffffff' data-odd-background-color='#f9f9f9'></p>
+<ul>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Up to 1000 users" data-feature-heading-talentlibrary="">No setup fee</li>
+<li data-feature-heading-initial="Up to 1000 users" data-feature-heading-talentlibrary="">Branded learning portal</li>
+<li data-feature-heading-initial="Unlimited courses" data-feature-heading-talentlibrary="">1,000+ course library</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Unlimited courses" data-feature-heading-talentlibrary="">Unlimited courses</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Unlimited email support" data-feature-heading-talentlibrary="">Unlimited support</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Live chat support" data-feature-heading-talentlibrary="">Live chat support</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Single Sign-On support" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Single Sign-On support</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Custom reports" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Custom reports</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Automations" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Automations</div>
+</li>
+<li data-feature-heading-initial="Automations" data-feature-heading-talentlibrary="">Integrations</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Success Manager" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Success Manager</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="SSL for your custom domain" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">SSL for your custom domain</div>
+</li>
+</ul>
+<p></li><li class='price_button normal' style="background-color: #ffffff;" ><div class='title_on_top_button_wrapper '><a  href='https://skillhub.training/contact/' target='_self'>Buy Now</a></div></li></ul></div></div><div class='q_price_table  title_on_top' style="border-top:0;"><div class='price_table_inner' ><ul style=''><li class='cell table_title  pricing_title_grid center' style="background-color: #2092d8;"><span class='title_content' >50+ Users</span></li><li class='prices pricing_content_full_width' style="background-color: #ffffff;"><div class='price_in_table'style="border-bottom: 0;"><sup class='value' >$</sup><span class='price' style="font-weight: 100">Contact Us</span><span class='mark'>/ Custom Plan</span></div></li><li class='pricing_table_content pricing_content_full_width ' style=' '  data-even-background-color='#ffffff' data-odd-background-color='#f9f9f9'></p>
+<ul>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Up to 1000 users" data-feature-heading-talentlibrary="">No setup fee</li>
+<li data-feature-heading-initial="Up to 1000 users" data-feature-heading-talentlibrary="">Branded learning portal</li>
+<li data-feature-heading-initial="Unlimited courses" data-feature-heading-talentlibrary="">1,000+ course library</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Unlimited courses" data-feature-heading-talentlibrary="">Unlimited courses</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Unlimited email support" data-feature-heading-talentlibrary="">Unlimited support</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Live chat support" data-feature-heading-talentlibrary="">Live chat support</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Single Sign-On support" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Single Sign-On support</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Custom reports" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Custom reports</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Automations" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Automations</div>
+</li>
+<li data-feature-heading-initial="Automations" data-feature-heading-talentlibrary="">Integrations</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="Success Manager" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">Success Manager</div>
+</li>
+<li class="d-block py-2 feature-item" data-feature-heading-initial="SSL for your custom domain" data-feature-heading-talentlibrary="">
+<div class="scope_has-tooltip" tabindex="0">SSL for your custom domain</div>
+</li>
+</ul>
+<p></li><li class='price_button normal' style="background-color: #ffffff;" ><div class='title_on_top_button_wrapper '><a  href='https://skillhub.training/contact/' target='_self'>Buy Now</a></div></li></ul></div></div></div></div></div></div></div></div></div><div      class="vc_row wpb_row section " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div      class="vc_row wpb_row section " style=' padding-top:15px; padding-bottom:15px; text-align:center;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><a href="https://skillhub.training/14-day-free-trial/" target="_self"  class="qbutton  qbutton_with_icon icon_right" style="border-color: #d66f20; background-color: #d66f20;">14 Day Free Trial<i class="qode_icon_font_awesome fa fa-coffee button_icon" style="width: auto" ></i></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"><a href="https://scheduler.hibox.co/skillhub" target="_self"  class="qbutton  qbutton_with_icon icon_right" style="">Book a Demo<i class="qode_icon_font_awesome fa fa-calendar-check-o button_icon" style="width: auto" ></i></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div></div>
+</div></div></div></div></div>
+											 
+												</div>
+	</div>	
+	
+
+    </div> <!-- close div.content_inner -->
+</div>  <!-- close div.content -->
+
+
+
+<footer class="footer_border_columns">
+	<div class="footer_inner clearfix">
+					<div class="footer_top_holder">
+				<div class="footer_top footer_top_full">
+																					<div class="four_columns clearfix">
+										<div class="qode_column column1">
+											<div class="column_inner">
+												<div id="media_image-2" class="widget widget_media_image"><img width="300" height="153" src="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-White-Text-300x153.png" class="image wp-image-57260  attachment-medium size-medium" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-White-Text-300x153.png 300w, https://skillhub.training/wp-content/uploads/2020/05/SkillHub-Logo-White-Text.png 479w" sizes="(max-width: 300px) 100vw, 300px" /></div>											</div>
+										</div>
+										<div class="qode_column column2">
+											<div class="column_inner">
+												<div id="text-16" class="widget widget_text"><h4>About SkillHub Training</h4>			<div class="textwidget">SkillHub Training offers a turn-key solution for any company or organization looking to effectively train a group. Our platform provides a fun learning environment, promoting learning and making virtual communication easier than ever. 
+
+<div class="separator  transparent   " style="margin-top:20px;margin-bottom:0px"></div>
+
+
+You've found the most affordable, feature rich training option on the market today. No need to wait. Setup takes just a couple days.
+
+<div class="separator  transparent   " style="margin-top:20px;margin-bottom:0px"></div>
+
+
+</div>
+		</div>											</div>
+										</div>
+										<div class="qode_column column3">
+											<div class="column_inner">
+												<div id="text-39" class="widget widget_text"><h4>SkillHub For&#8230;</h4>			<div class="textwidget"><p><a href="https://skillhub.training/membership-organizations"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Membership Organizations</p></div></a></p>
+<p><a href="https://skillhub.training/companies/"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Companies</p></div></a></p>
+<p><a href="https://skillhub.training/schools/"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Schools</p></div></a></p>
+<p><a href="https://skillhub.training/resellers/"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Resellers</p></div></a></p>
+</div>
+		</div>											</div>
+										</div>
+										<div class="qode_column column4">
+											<div class="column_inner">
+												<div id="text-38" class="widget widget_text"><h4>Learn More</h4>			<div class="textwidget"><p><a href="https://skillhub.training/14-day-free-trial/"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">14 Day Free Trial</p></div></a></p>
+<p><a href="https://skillhub.as.me/mark"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Book a Demo</p></div></a></p>
+<p><a href="https://skillhub.training/contact/"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Contact Us</p></div></a></p>
+<p><a href="https://skillhub.training/lms-features/"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">LMS Features</p></div></a></p>
+<p><a href="https://lms.skillhub.training/catalog/index" target="_blank" rel="noopener"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Content Catalog</p></div></a></p>
+<p><a href="https://skillhub.training/blog" rel="noopener"><div class="q_icon_list" style='margin-bottom: 0px;'><div class="q_icon_list_icon_holder"><div class="q_icon_list_icon_holder_inner"><i class="qode_icon_simple_line_icon  normal_icon_list simple_line_icons  q_icon_list_item_icon" style="color:#ffffff;font-size:18px;" ></i></div></div><p class="q_icon_list_text " style="color:#949494;font-size: 14px;font-weight: 400;">Blog</p></div></a></p>
+</div>
+		</div>											</div>
+										</div>
+									</div>
+																				</div>
+
+			</div>
+				
+		
+			
+	</div>
+</footer>
+</div> <!-- close div.wrapper_inner  -->
+</div> <!-- close div.wrapper -->
+<script type="text/html" id="wpb-modifications"></script><script type='text/javascript' src='https://skillhub.training/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/skillhub.training\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/country-phone-field-contact-form-7/assets/js/intlTelInput.min.js?ver=5.8.4' id='nbcpf-intlTelInput-script-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/country-phone-field-contact-form-7/assets/js/countrySelect.min.js?ver=5.8.4' id='nbcpf-countryFlag-script-js'></script>
+<script type='text/javascript' id='nbcpf-countryFlag-script-js-after'>
+		(function($) {
+			$(function() {
+				jQuery.ajax( { 
+					url: "//freegeoip.live/json/", 
+					type: "POST", 
+					dataType: "jsonp",
+					success: function(location) {
+						//console.log(location.country_code);
+						$(".wpcf7-countrytext").countrySelect({defaultCountry: location.country_code.toLowerCase(),
+						});
+						$(".wpcf7-phonetext").intlTelInput({
+							autoHideDialCode: false,
+							autoPlaceholder: "off",
+							nationalMode: false,
+							separateDialCode: false,
+							hiddenInput: "full_number",	
+						});
+						
+						$(".wpcf7-phonetext").each(function () {
+							var hiddenInput = $(this).attr('name');
+							//console.log(hiddenInput);
+							$("input[name="+hiddenInput+"-country-code]").val($(this).val());
+						});
+						
+						$(".wpcf7-phonetext").on("countrychange", function() {
+							// do something with iti.getSelectedCountryData()
+							//console.log(this.value);
+							var hiddenInput = $(this).attr("name");
+							$("input[name="+hiddenInput+"-country-code]").val(this.value);
+							
+						});
+
+					}
+				})
+			});
+		})(jQuery);
+</script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/skillhub.training\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe.js?ver=1.1' id='wpcf7-redirect-script-js'></script>
+<script type='text/javascript' id='google-invisible-recaptcha-js-before'>
+var renderInvisibleReCaptcha = function() {
+
+    for (var i = 0; i < document.forms.length; ++i) {
+        var form = document.forms[i];
+        var holder = form.querySelector('.inv-recaptcha-holder');
+
+        if (null === holder) continue;
+		holder.innerHTML = '';
+
+         (function(frm){
+			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+            var holderId = grecaptcha.render(holder,{
+                'sitekey': '6Lf7rqgZAAAAABQ1yOUuiRJvzmhLVBy0fWd_nWhM', 'size': 'invisible', 'badge' : 'bottomleft',
+                'callback' : function (recaptchaToken) {
+					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
+					 HTMLFormElement.prototype.submit.call(frm);
+                },
+                'expired-callback' : function(){grecaptcha.reset(holderId);}
+            });
+
+			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
+				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
+					clickEvt.preventDefault();
+					grecaptcha.execute(holderId);
+				});
+			}
+			else
+			{
+				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
+			}
+
+
+        })(form);
+    }
+};
+</script>
+<script type='text/javascript' async defer src='https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit' id='google-invisible-recaptcha-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/accordion.min.js?ver=1.12.1' id='jquery-ui-accordion-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1' id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/effect.min.js?ver=1.12.1' id='jquery-effects-core-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/effect-fade.min.js?ver=1.12.1' id='jquery-effects-fade-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/effect-size.min.js?ver=1.12.1' id='jquery-effects-size-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/effect-scale.min.js?ver=1.12.1' id='jquery-effects-scale-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.12.1' id='jquery-effects-slide-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/slider.min.js?ver=1.12.1' id='jquery-ui-slider-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/ui/tabs.min.js?ver=1.12.1' id='jquery-ui-tabs-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0' id='jquery-form-js'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.8.4' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.8.4' id='wp-mediaelement-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/doubletaptogo.js?ver=5.8.4' id='doubletaptogo-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/modernizr.min.js?ver=5.8.4' id='modernizr-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.appear.js?ver=5.8.4' id='appear-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/hoverIntent.min.js?ver=1.10.1' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/absoluteCounter.min.js?ver=5.8.4' id='absoluteCounter-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/easypiechart.js?ver=5.8.4' id='easypiechart-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.mixitup.min.js?ver=5.8.4' id='mixitup-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.nicescroll.min.js?ver=5.8.4' id='nicescroll-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=6.8.0' id='prettyphoto-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.fitvids.js?ver=5.8.4' id='fitvids-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/js_composer/assets/lib/flexslider/jquery.flexslider.min.js?ver=6.8.0' id='flexslider-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/infinitescroll.min.js?ver=5.8.4' id='infinitescroll-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.waitforimages.js?ver=5.8.4' id='waitforimages-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/waypoints.min.js?ver=5.8.4' id='waypointss-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jplayer.min.js?ver=5.8.4' id='jplayer-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/bootstrap.carousel.js?ver=5.8.4' id='bootstrap-carousel-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/skrollr.js?ver=5.8.4' id='skrollr-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/Chart.min.js?ver=5.8.4' id='Chart-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.easing.1.3.js?ver=5.8.4' id='jquery-easing-1.3-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.plugin.min.js?ver=5.8.4' id='jquery-plugin-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.countdown.min.js?ver=5.8.4' id='countdown-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.multiscroll.min.js?ver=5.8.4' id='multiscroll-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.carouFredSel-6.2.1.js?ver=5.8.4' id='carouFredSel-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.fullPage.min.js?ver=5.8.4' id='fullPage-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/lemmon-slider.js?ver=5.8.4' id='lemmonSlider-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/owl.carousel.min.js?ver=5.8.4' id='owl_carousel-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.mousewheel.min.js?ver=5.8.4' id='mousewheel-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/plugins/jquery.touchSwipe.min.js?ver=5.8.4' id='touchSwipe-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.8.0' id='isotope-js'></script>
+<script type='text/javascript' id='pitch-default-dynamic-js-extra'>
+/* <![CDATA[ */
+var no_ajax_obj = {"no_ajax_pages":[false,"https:\/\/skillhub.training\/assessment-companies","https:\/\/skillhub.training\/assessment-resellers","https:\/\/skillhub.training\/assessment-large-organizations","https:\/\/skillhub.training\/assessment-university-or-school","https:\/\/skillhub.training\/assessment-lms-only","https:\/\/skillhub.training\/wp-login.php?action=logout&_wpnonce=666eb3004f"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/default_dynamic_callback.php?ver=5.8.4' id='pitch-default-dynamic-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/default.min.js?ver=5.8.4' id='pitch-default-js'></script>
+<script type='text/javascript' id='pitch-default-js-after'>
+if($j('body.page-id-54668').length > 0) {
+$j(window).unbind('.backToTopShowHide');
+	$j(window).scroll(function () {
+		var b = $j(this).scrollTop();
+		var c = $j(this).height();
+		var d;
+		if (b > 0) { d = b + c / 2; } else { d = 1; }
+		
+		if (d < 5900) { totop_button("off"); } else { totop_button("on"); }
+	});
+}
+
+if($j('.drop_down > ul > li').length > 0) {
+	var menu_items = $j('.drop_down > ul > li');
+	menu_items.each( function(i) {
+		if ($j(menu_items[i]).find('.second').length > 0) {
+			if($j(menu_items[i]).hasClass('wide')){
+				$j(this).find('.second > .inner > ul > li').each(function() {
+					if($j(this).find('img').length > 0) {
+						$j(this).find('img').css({"width":"100%","height":"auto"});
+					}
+				});
+			}
+		}
+	});
+}
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/blog.min.js?ver=5.8.4' id='pitch-blog-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/ajax.min.js?ver=5.8.4' id='pitch-ajax-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.8.0' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' id='trx_mscf_scripts-js-extra'>
+/* <![CDATA[ */
+var TRX_MSCF_GLOBALS = {"ajax_url":"https:\/\/skillhub.training\/wp-admin\/admin-ajax.php","ajax_nonce":"9c1c146434"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/contact-form-7-multi-step-addon/assets/js/scripts.min.js?ver=1.0.1' id='trx_mscf_scripts-js'></script>
+<script type='text/javascript' id='qode-pitch-like-js-extra'>
+/* <![CDATA[ */
+var qodeLike = {"ajaxurl":"https:\/\/skillhub.training\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/themes/pitchwp/js/qode-like.js?ver=1.0' id='qode-pitch-like-js'></script>
+<script type='text/javascript' id='wpcf7cf-scripts-js-extra'>
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/skillhub.training\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://skillhub.training/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.1.4' id='wpcf7cf-scripts-js'></script>
+<script type='text/javascript' src='https://skillhub.training/wp-includes/js/wp-embed.min.js?ver=5.8.4' id='wp-embed-js'></script>
 </body>
 </html>
